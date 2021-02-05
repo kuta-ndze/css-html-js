@@ -1,0 +1,67 @@
+body{
+  background-color: #eeeeee;
+  background-image: url(images/patch.jpg);
+  background-repeat: no-repeat; /* it only stays at this point does not repeat*/
+  background-position: center center; /*default*/
+}
+h1{
+  font-weight: normal;  /* don't want header to be bold by default*/
+  font-size: 16px;
+}
+main{
+  background-color: #0000ff;
+}
+.boxmodel{
+  border: 2px solid #0000ff;
+  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
+}
+.customtext{
+  font-family: Arial,Helvetica,sans-serif; /* find any font amongst the three found in user computer*/
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+}
+.fontcombined{
+  font: bold 20px Arial,Helvetica,sans-serif;
+}
+.imgbox{
+  border: 5px solid #ff0000;
+  padding: 10px;
+  background-color: #FFFFFF;
+  margin: 20px 20px 0 0;
+  width: 200px;
+}
+.otherbox{
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #00ff00;
+}
+.zeroout{
+  margin: 0;
+  padding: 0;
+}
+.pwidth{
+  border:  1px solid  #ff0000;
+  padding: 10px;
+  width: 100px;
+}
+.textright{
+  text-align: right;
+}
+.textleft{
+  text-align: left;  /*this is default value no changes will be seen,
+  so its really not relevant*/
+}
+.textcenter{
+  text-align: center;
+}
+.textjustify{
+  text-align: justify;  /*align text on bothsides left and right */
+}
+.textspace{
+  letter-spacing: 10px;
+}
+.textheight{
+  line-height: 50px;
+}
