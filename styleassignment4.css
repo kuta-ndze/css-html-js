@@ -1,0 +1,23 @@
+body{
+  background-color: #E5E4E6;
+  font-family: sans-serif;
+  background-image: url(images/patch.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+}
+h1, h2, h3, h4{
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+.imgbox{
+  border: 10px solid black;
+  padding: 10px 10px 10px 10px;
+  background-color:#FFFFFF;
+}
+.textcenter{
+  text-align: center;
+}
+.textjustify{
+  text-align: justify;
+}
