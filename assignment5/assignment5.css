@@ -1,0 +1,77 @@
+a{
+  text-decoration: none;
+  color: #1872E0;
+}
+a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+body{
+  background-color: #F7EDE8;  /*color demacation with the white to right of photo, just for illustration as required.*/
+  height: 58em; /*bacground height demacation*/
+}
+
+.box-1 p{
+  font-family: Arial;
+  text-align: right;
+  color: white;
+  padding: 26px 190px 0 0;
+}
+
+.box-1 h1{
+  text-align: right;
+  font-size: 149px;
+  font-family: Impact;
+  color: #227AD2;
+  padding: 0 321px 0 0;
+}
+.box-2{
+  font-size: 16px;  /*font will not change when you contract or expand page*/
+  font-family: Helvetica;
+  color: #1872E0;
+  padding: 398px 10px 0 1px;
+  margin: 0;
+}
+.box-2 p{
+  margin:0; /*this closes up the paragraphs spaces in box-2*/
+}
+.box-3{
+  padding: 15px 0 20px 220px;
+  color: #48A0F8;
+  font-weight: bold;
+  font-family: Arial;
+  width: 16px;
+}
+.container{
+  background-image: url(Soul.png);
+  background-repeat: no-repeat;
+  padding: 0 2em 0 0;
+  width: 50em; /*this will help to differenciate between white to right and background color*/
+  background-color: white; /*white to right color*/
+}
+.clr1{
+  color: orange;
+}
+.fnt{
+  font-size: 7pt;
+  word-spacing: 5px; /*make the O in ORIGINAL and S in SCREENPLAY below to align*/
+}
+.fnt1{
+  font-size: 7pt;
+  word-spacing: 5px;
+}
+
+.line1{
+  padding:0 40px 0 5px;
+  text-align: right;
+  bottom: 60px;
+  width: 33em;
+}
+.line2{
+  padding-right: 0 50px 0 0;
+  text-align: right;
+  width: 632px;  /*the box-2 line 2 the E in BATISTE and R in DOCTER should align as in the example */
+}
+.pguide{
+  padding: 0 0 10px 250px;
+}
