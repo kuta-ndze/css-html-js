@@ -1,0 +1,53 @@
+body { background-color: #999999; }
+a{
+  color: orange!important;
+}
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(12 1fr);
+  grid-template-rows: 100px auto 100px;
+}
+header{
+  grid-column: span 12;
+  border: 1px solid red;
+}
+nav{
+  grid-column: span 3;
+  border:  1px solid red;
+  padding: 20px;
+}
+main{
+  border:1px solid red;
+  grid-column: span 9;
+}
+footer{
+  grid-column: span 12;
+  border: 1px solid red;
+}
+#cgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid red;
+}
+.box{
+  border: 1px solid blue;
+}
+.floatimage{
+  width: 100px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.p2{
+  clear: both;
+}
+.p1, .p2{
+
+}
+a{
+  color: purple;
+}
