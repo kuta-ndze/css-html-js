@@ -37,7 +37,6 @@ body{
 }
 footer{
   grid-column: span 12;
-  border: 1px solid red;
   text-align: center;
   font-style: italic;
   background-color: red;
