@@ -1,0 +1,105 @@
+a:hover{
+  color: #E52323;
+}
+body{
+  background-color: #9E9E9E;
+}
+.spancolor {
+  color: #E52323;
+  font-weight: bold;
+}
+  .empty{
+   /*{This is not important per your response to my question, i am only making sure the
+   design for my nav should look similar to the sample you gave. */
+  float: right;
+  width: 234px;
+  height: 46px;
+  background-image: linear-gradient(to top, #06209b, #003bb1, #0053c6, #006bd9, #1283eb);
+}
+footer{
+  background-color: #E52323;
+  border-top: 5px solid #0866AF;
+  grid-column: span 12;
+}
+footer a img{
+  padding: 0;
+  margin: 30px 0 15px 30px;
+}
+.grdt{
+    background-image: linear-gradient(to top, #06209b, #003bb1, #0053c6, #006bd9, #1283eb);
+    grid-column: span 12;
+}
+h1{
+   margin: 0;
+   padding: 30px;
+   font-family: Helvetica;
+   font-style: italic;
+   font-weight: normal;;
+}
+h1 a{
+  text-decoration: none;
+  color: #C3D5E4;
+}
+h2{
+  font-family: Helvetica;
+  font-weight: normal;
+  color: #0866AF;
+  border-bottom: 3px solid #0866AF;
+  padding-bottom: 10px;
+}
+.image-box{
+  float: left;
+  border: 3px solid #0866AF;
+  margin: 0 15px 35px 0;
+}
+#imageright{
+  float: right;
+  border: 3px solid #0866AF;
+  margin: 0 15px 35px 0;
+}
+#justifytext{
+  text-align: justify;
+  font-weight: bold;
+}
+li a:hover{
+  background-image: linear-gradient(to right bottom, #042c37, #003347, #003958, #003e68, #0a4278);
+}
+main{
+  padding: 10px 30px 10px 30px;
+  grid-column: span 12; /*added*/
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav ul li{
+  list-style-type: none;
+  width: 234px;
+  border-right: none;
+  display: inline-block;
+  font-size: 18px;
+}
+nav ul li a{
+  color: #C3D5E4;
+  font-family: Helvetica;
+  display: block;
+  padding: 15px 0 15px 30px;
+  text-decoration:none;
+  font-weight: bold;
+  background-image: linear-gradient(to top, #06209b, #003bb1, #0053c6, #006bd9, #1283eb);
+}
+.notfloat{
+  clear:both;
+}
+.pxfont{
+    font-size: 18px;
+}
+.wrapper{
+  width: 950px;
+  margin: 1em auto;
+  background-color: white;
+  border: 5px solid #0866AF;
+  display: grid;
+  grid-template-columns: repeat(12 1fr);
+  grid-template-rows: 140px auto 140px;
+}
