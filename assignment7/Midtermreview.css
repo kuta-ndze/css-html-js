@@ -12,7 +12,7 @@ body{
    /*{This is not important per your response to my question, i am only making sure the
    design for my nav should look similar to the sample you gave. */
   float: right;
-  width: 234px;
+  width: 234.5px;
   height: 46px;
   background-image: linear-gradient(to top, #06209b, #003bb1, #0053c6, #006bd9, #1283eb);
 }
@@ -74,7 +74,7 @@ nav ul{
 }
 nav ul li{
   list-style-type: none;
-  width: 234px;
+  width: 234.5px;
   border-right: none;
   display: inline-block;
   font-size: 18px;
