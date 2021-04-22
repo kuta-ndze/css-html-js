@@ -6,6 +6,19 @@ body {
 button{
   cursor: pointer;
 }
+blockquote {
+  border-left: 6px solid red;
+  font-family: Georgia, sans-serif;
+}
+.btn{
+  display: inline-block;
+  background-image: linear-gradient(to right bottom, #de9749, #d6a340, #cbaf3b, #bcba3c, #a9c644);
+  padding: 14px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 92%;
+}
 .carousel{
   grid-column: span 12;
   align-items: center;
@@ -83,6 +96,10 @@ button{
   font-weight: 200;
   text-decoration: none;
 }
+.gotopbtn {
+  float: right;
+  margin: 0 250px 100px 0;
+}
 .txtb{
   border: 1px solid #CFC8C8;
   margin: 8px 24px;
@@ -103,21 +120,12 @@ button{
   font-size: 18px;
   margin-top: 6px;
 }
-.btn{
-  display: inline-block;
-  background-image: linear-gradient(to right bottom, #de9749, #d6a340, #cbaf3b, #bcba3c, #a9c644);
-  padding: 14px 0;
-  text-transform: uppercase;
-  cursor: pointer;
-  margin-top: 8px;
-  width: 92%;
-}
 #wrapper {
   margin: 24px auto;
   width: 1200px;
   border: 1px solid black;
   padding: 24px;
-  background-color: #ffffff;
+  background-image: linear-gradient(to left top, #000000, #050404, #0a0908, #0d0d0c, #101110);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -127,8 +135,11 @@ button{
 #laptopimg{
   grid-column: span 6;
   margin-top: 24px;
-  border-radius: 27px;
-  box-shadow: 4px 4px 10px #CFC8C8;
+  width: 586px;
+  height: 633px;
+}
+html{
+  scroll-behavior: smooth;
 }
 header img{
   grid-column: span 7;
