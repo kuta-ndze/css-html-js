@@ -227,7 +227,7 @@ height: 633px;
   height: 633px;
 }
 #csshtmlxd{
-  padding: 24px;
+  padding: 17px;
   text-align:  center;
 }
 #csshtmlxd img{
@@ -241,7 +241,6 @@ height: 633px;
     background-image: radial-gradient(circle, #998499, #8f6c8a, #86537a, #7d3968, #741955);
     padding: 34px;
     border: 0px solid #727272;
-    box-shadow: 4px 4px 10px #CFC8C8;
 }
 .link a{
   padding: 8px;
