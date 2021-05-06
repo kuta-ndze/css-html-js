@@ -115,15 +115,15 @@ footer p{
 }
 .gotopbtn {
   float: right;
-  margin: -15px 250px 100px 0;
+  margin: -124px 24px 24px 0;
 }
 h1{
   color: #D6E4EA;
-  font-family: 'Creepster', cursive;
+  font-family: Times, serif;
 }
 h2{
   text-shadow: 2px 2px 2px #000;
-  font-family: 'Shrikhand', cursive;
+  font-family: Times,serif;
   letter-spacing: 1px;
   font-weight: 400;
   font-style: normal;
