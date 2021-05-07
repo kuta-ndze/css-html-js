@@ -279,8 +279,8 @@ nav li a{
   transition: background-color 1.5s, color 1.5s;
 }
 nav a:hover{
-  background-image: linear-gradient(to right top, #998499, #8f6c8a, #86537a, #7d3968, #741955);
-  color: black;
+  background-image: linear-gradient(to top, #101112, #1c1e1f, #282b2b, #353936, #454642);
+  color: white;
 }
 nav .active{
   background-image: linear-gradient(to right top, #998499, #8f6c8a, #86537a, #7d3968, #741955);
