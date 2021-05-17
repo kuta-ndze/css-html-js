@@ -3,10 +3,11 @@ a{
   transition: color 0.5s;
 }
 a:hover{
-  color:#727272;
+  color:#101112;
 }
 body {
-  background-image: radial-gradient(circle, #998499, #8f6c8a, #86537a, #7d3968, #741955);
+  /*background-image: radial-gradient(circle, #998499, #8f6c8a, #86537a, #7d3968, #741955);*/
+  background-image: url(paper.jpg);
   color: white;
   font-family: Helvetica, Arial,sans-serif;
 }
@@ -19,7 +20,7 @@ blockquote {
 }
 .btn{
   display: inline-block;
-  background-image: radial-gradient(circle, #998499, #8f6c8a, #86537a, #7d3968, #741955);
+  background-image: url(paper.jpg);
   padding: 14px 0;
   text-transform: uppercase;
   cursor: pointer;
@@ -68,7 +69,7 @@ blockquote {
   content: "";
   width: 5px;
   height: 100%;
-  background-image: radial-gradient(circle, #998499, #8f6c8a, #86537a, #7d3968, #741955);
+  background-image: url(paper.jpg);
   position: absolute;
   left: 0;
   top: 0;
@@ -238,7 +239,7 @@ height: 633px;
   margin: 24px;
 }
 .linkcolor{
-    background-image: radial-gradient(circle, #998499, #8f6c8a, #86537a, #7d3968, #741955);
+    background-image: url(paper.jpg);
     padding: 34px;
     border: 0px solid #727272;
 }
@@ -250,7 +251,7 @@ height: 633px;
   padding: 8px;
   font-size: 14px;
   border-radius: 30px 8px 30px 8px;
-  background-image: radial-gradient(circle, #998499, #8f6c8a, #86537a, #7d3968, #741955);
+  background-image: url(paper.jpg);
 }
 main{
   grid-column: span 12;
@@ -283,7 +284,7 @@ nav a:hover{
   color: white;
 }
 nav .active{
-  background-image: linear-gradient(to right top, #998499, #8f6c8a, #86537a, #7d3968, #741955);
+  background-image: url(paper.jpg);
   color: black;
 }
 p a{
@@ -293,5 +294,5 @@ section{
   grid-column: span 6;
 }
 span{
-  color: #F993EC;
+  color: #8b6398;
 }
